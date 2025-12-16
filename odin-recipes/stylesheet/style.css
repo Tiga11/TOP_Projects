@@ -1,0 +1,115 @@
+header {
+    background-color: #813e07;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+i  {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color: #813e07;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+ul, ol {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    list-style-type: none;
+    counter-reset: listcounter;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #813e07;
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(194, 88, 1);
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #813e07;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: rgb(194, 88, 1);
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
